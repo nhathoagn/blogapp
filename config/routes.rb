@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'ruby' => 'ruby#ruby'
   get 'english' => 'english#english'
   get 'c' => 'c#c'
+  get 'search' => 'search#search'
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
